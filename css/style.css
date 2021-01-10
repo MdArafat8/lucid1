@@ -1,0 +1,201 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+.banner{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+
+}
+.banner .navbar-brand{
+color: #ffffff;
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.banner ul{
+
+}
+.banner .navbar-nav .nav-item a{
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    margin-left: 15px;
+    padding: 0;
+    transition: 2s all ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.banner .navbar-nav .nav-item a:hover{
+    color: #ffffff;
+    font-size: 18px;
+}
+.banner .navbar-nav .nav-item a::after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.banner .navbar-nav .nav-item a::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-color:#008ed6;
+    transition: .4s all ease-in-out;
+}
+.banner .navbar-nav .nav-item a:hover::after{
+
+    
+    width: 45%;
+}
+.banner .navbar-nav .nav-item a:hover::before{
+
+    
+    width: 45%;
+}
+
+element.style {
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand{
+    color:#fff;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color:#008ed6;
+}
+.banner-content{
+
+}
+.banner-content h5{
+    color:#008ed6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-content h1{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-content p{
+    color: #6b6c6e;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-download, .btn-view{
+    
+color: #fff;
+    
+font-weight: 700;
+    
+letter-spacing: 1.1px;
+    
+border: 1px solid #1959b8;
+    
+background-color: #157bc5;
+    
+font-size: 14px;
+transition: .4s all ease-in-out;
+border-radius: 3px;
+    
+padding: 12px 30px;
+}
+.btn-view{
+border: 1px solid #6b6c6e;
+
+background-color: transparent ;
+}
+.btn-download:hover{
+    border: 1px solid #6b6c6e;
+    
+background-color: transparent ;
+color: #ffffff;
+}
+.btn-view:hover{
+    border: 1px solid #1959b8;
+    
+    background-color: #157bc5 ;
+    color: #ffffff; 
+}
+.feature{
+    
+}
+.heading{
+    position: relative;
+}
+.heading h5{
+    color: #157bc5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.heading h1{
+    color: #1a1a1a;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 41%;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 41%;
+    width: 0;
+    height: 3px;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.feature:hover .heading::after{
+
+    
+    width: 50px;
+}
+.feature:hover .heading::before{
+
+    
+    width: 50px;
+}
+.feature-item{
+
+}
+.feature-item h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feature-item p{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.feature-item .feature-item-icon{
+    
+font-size: 24px;
+    
+border: 1px solid #949090;
+    
+border-radius: 50%;
+    
+width: 60px;
+    
+height: 60px;
+    
+margin: auto;
+    
+line-height: 60px;
+color: #008ed6;
+transition: .4s all ease-in-out;
+}
+.feature-item-icon:hover{
+    color: black;
+}
+
+
+
+
